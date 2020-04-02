@@ -45,7 +45,7 @@ elif service_rating == "fair":
     print ("Tip Amount: " + tip_amount + '\n' + "Total Amount: " + total_amount + '\n' + "Amount per person: " + amount_per_person) 
 
 
-elif service_rating == "bad": 
+else: 
 
     #Calculate bad service total
     tip_amount = bill_amount * .10 
